@@ -6,7 +6,7 @@ mesa-git radv with applied patch 25659 fixing mesh shaders with array derefs of 
 This is a compiled version of mesa-git radv with an applied patch from merge request 25659.
 This is to resolve mesh shader issues in certain affected applications. 
 
-Currently that fix request has not been merged yet. After inital tests though that MR seems
+Currently that fix request has not been merged yet. After initial tests though that MR seems
 to resolve the issue for a couple of users at the cost of possible performance loss.
 
 Linux users who want to test the patched driver nevertheless, but don't want to mess with 
@@ -21,7 +21,7 @@ By using the patched driver in this project you hereby agree to use it at your o
 
 Agreed? Then read on for the Tutorial!
 
-Prolog about the method:
+Prologue about the method:
 
 Don't worry about your system's default mesa driver. We are not going to touch it at all!
 We are going to use the vulkan-icd-loader library as a connection between an application
@@ -33,7 +33,7 @@ which might be hard to debug especially for linux newbies.
 
 We are going to use a winemanger as an easier means to organize our wine prefixes.
 I choose Lutris here but you can also use heroic game launcher and others. The place
-of the settings to enter the needed environment varables may differ a bit.
+of the settings to enter the needed environment variables may differ a bit.
 
 1. First download the latest driver release from this git repository.
 2. Decompress the zip file to your home directory: /home/(YOUR-USER-PROFILE-NAME)/
@@ -45,8 +45,8 @@ of the settings to enter the needed environment varables may differ a bit.
 8. In the value field enter: /home/user/mesa/share/vulkan/icd.d/radeon_icd.x86_64.json
 9. Press the save button in the top right corner of the current config window.
 
-That's it! We now instructed the application to use our separate mesa radv driver,
-that we saved in our home directory. 
+That's it! We now instructed the application to specifically use our separate mesa 
+radv driver, that we saved in our home directory, every time we launch it.
 
 This is a quick setup and help, that i arranged and wrote after midnight :) so... 
 to be continued ... maybe!
