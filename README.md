@@ -48,7 +48,7 @@ of the settings to enter the needed environment variables may differ a bit.
 That's it! We now instructed the application to specifically use our separate mesa 
 radv driver, that we saved in our home directory, every time we launch it.
 
-This is a quick setup and help, that i arranged and wrote after midnight :) so... 
-to be continued ... maybe!
+This is just a quick setup and help, that i arranged and wrote after midnight. 
+So sorry for any inconveniences. To be continued ... maybe!
 
 Until then good luck and salam to you friends of the penguin :)
