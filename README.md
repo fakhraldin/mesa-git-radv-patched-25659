@@ -34,8 +34,8 @@ We save the latter in our home directory isolated from our system. This is to ke
 the risk for breakage as low as possible. Primarily we want to avoid any complicated 
 circumstances, which might be hard to debug especially for linux newbies. 
 
-We are going to use a winemanger as an easier means to organize our wine prefixes.
-I choose Lutris here but you can also use heroic game launcher and others. The place
+We are going to use a wine-manager as an easier means to organize our wine prefixes.
+I choose Lutris here but you can also use heroic games launcher and others. The place
 of the settings may differ a bit, but the entered environment variables are the same.
 
 2.) Procedure:
