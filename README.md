@@ -9,7 +9,8 @@ This is a compiled version of mesa-git radv with an applied patch from merge req
 This is to resolve mesh shader issues in certain affected applications. 
 
 Currently that fix request has not been merged yet. After initial tests though that MR seems
-to resolve the issue for a couple of users at the cost of possible performance loss.
+to resolve the issue for a couple of users at the cost of possible performance loss. On the
+other hand one user reported this to be running just fine without fps drops.
 
 Linux users who want to test the patched driver nevertheless, but don't want to mess with 
 their linux distribution's default mesa driver, can follow this tutorial.
@@ -23,7 +24,7 @@ By using the patched driver in this project you hereby agree to use it at your o
 
 Agreed? Then read on for the Tutorial!
 
-Prologue about the used method:
+1.) Prologue about the used method:
 
 Don't worry about your system's default mesa driver. We are not going to touch it at all!
 We are going to use the vulkan-icd-loader library as a connection between an application
@@ -37,6 +38,8 @@ We are going to use a winemanger as an easier means to organize our wine prefixe
 I choose Lutris here but you can also use heroic game launcher and others. The place
 of the settings to enter the needed environment variables may differ a bit.
 
+2.) Procedure:
+
 1. Download the latest driver package from the release section.
 2. Decompress the zip file to your home directory: /home/(YOUR-USER-PROFILE-NAME)/
 3. Now you should see the following directory: /home/(YOUR-USER-PROFILE-NAME)/mesa
@@ -49,10 +52,12 @@ of the settings to enter the needed environment variables may differ a bit.
    Don't forget to replace (YOUR-USER-PROFILE-NAME) with your actual user name.
 10. Press the save button in the top right corner of the current config window.
 
+
+3.) Result:
 That's it! We now instructed the application to specifically use our separate mesa 
 radv driver, that we saved in our home directory, every time we launch it.
 
-This is just a quick setup and help, that i arranged and wrote after midnight. 
+This is just a quick help and setup, that i arranged and wrote after midnight. 
 So sorry for any inconveniences. To be continued ... maybe!
 
 Salam
