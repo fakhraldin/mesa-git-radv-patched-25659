@@ -16,7 +16,7 @@ Linux users who want to test the patched driver nevertheless, but don't want to 
 their linux distribution's default mesa driver, can follow this tutorial.
 
 Before you continue though, a disclaimer: I compiled and packaged the driver, but i do not 
-take any responsibility for any damage to your GPU, PC & OS! MR 25659 is pre aplpha status! 
+take any responsibility for any damage to your GPU, PC & OS! MR 25659 is aplpha status! 
 Apart from that nothing else has been changed or applied to this mesa-git v24 dev package.
 By using the patched driver in this project you hereby agree to use it at your own risk.
 
