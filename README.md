@@ -48,6 +48,7 @@ of the settings may differ a bit, but the entered environment variables are the 
 6. Scroll down to "environment variables" and click the "add" button right next to it.
 7. In the field "key" enter: `VK_ICD_FILENAMES`
 8. In the field "value" right next to it enter:
+   
    `/home/(YOUR-USER-PROFILE-NAME)/mesa/share/vulkan/icd.d/radeon_icd.x86_64.json`
    
    Don't forget to replace (YOUR-USER-PROFILE-NAME) with your actual user name.
