@@ -1,1 +1,5 @@
-mesa-git-radv-patched-25659 export-ignore
+/mesa-git-radv-patched-25659 export-ignore
+.gitattributes export-ignore  
+.gitignore export-ignore
+License.md export-ignore
+README.md export-ignore
