@@ -58,7 +58,8 @@ of the settings may differ a bit, but the entered environment variables are the 
 That's it! We now instructed the application to specifically use our separate mesa 
 radv driver, that we saved in our home directory, every time we launch it.
 
-This is meant as a quick help and setup, that i arranged and wrote after midnight.
+This is meant as a quick help and setup, that i arranged and wrote after midnight
+on fedora 39.
 If you can wait, then be patient until the patch gets merged hopefully soon.
 
 to be continued ... maybe! 
