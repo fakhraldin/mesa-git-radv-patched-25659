@@ -50,7 +50,7 @@ of the settings to enter the needed environment variables may differ a bit.
 8. In the field "value" right next to it enter:
    `/home/(YOUR-USER-PROFILE-NAME)/mesa/share/vulkan/icd.d/radeon_icd.x86_64.json`
    Don't forget to replace (YOUR-USER-PROFILE-NAME) with your actual user name.
-10. Press the save button in the top right corner of the current config window.
+9. Press the save button in the top right corner of the current config window.
 
 
 3.) Result:
