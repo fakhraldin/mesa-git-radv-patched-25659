@@ -31,7 +31,7 @@ We are going to use the vulkan-icd-loader library as a connection between an app
 and multiple vulkan drivers. That way we can keep the distro's mesa default driver in
 charge, while instructing an application to use a specific vulkan driver on demand. 
 We save the latter in our home directory isolated from our system. This is to keep 
-the risk for our system as low as possible. Also we want to avoid any complicated 
+the risk for breakage as low as possible. Primarily we want to avoid any complicated 
 circumstances, which might be hard to debug especially for linux newbies. 
 
 We are going to use a winemanger as an easier means to organize our wine prefixes.
@@ -51,7 +51,6 @@ of the settings may differ a bit, but the entered environment variables are the 
    `/home/(YOUR-USER-PROFILE-NAME)/mesa/share/vulkan/icd.d/radeon_icd.x86_64.json`
    Don't forget to replace (YOUR-USER-PROFILE-NAME) with your actual user name.
 9. Press the save button in the top right corner of the current config window.
-
 
 3.) Result:
 That's it! We now instructed the application to specifically use our separate mesa 
