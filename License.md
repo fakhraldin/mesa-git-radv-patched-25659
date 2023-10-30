@@ -37,12 +37,19 @@ Attention, Contributors
 When contributing to the Mesa project you must agree to the licensing terms of the component to which you’re contributing. The following section lists the primary components of the Mesa distribution and their respective licenses.
 Mesa Component Licenses
 
-Component               Location                                 License
---------------------------------------------------------------------------------------------
-Main Mesa code          src/mesa/                                MIT 
-Gallium code            src/gallium/                             MIT
-Ext headers             include/GL/glext.h, include/GL/glxext.h  Khronos
-GLX client code         src/glx/                                 SGI Free Software License B
-C11 thread emulation    src/c11/impl/threads*                    Boost (permissive)
+
+`Component               Location                                 License`
+
+----
+
+`Main Mesa code          src/mesa/                                MIT`
+
+`Gallium code            src/gallium/                             MIT`
+
+`Ext headers             include/GL/glext.h, include/GL/glxext.h  Khronos`
+
+`GLX client code         src/glx/                                 SGI Free Software License B`
+
+`C11 thread emulation    src/c11/impl/threads*                    Boost (permissive)`
 
 In general, consult the source files for license terms.
