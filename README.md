@@ -49,8 +49,9 @@ of the settings may differ a bit, but the entered environment variables are the 
 7. In the field "key" enter: `VK_ICD_FILENAMES`
 8. In the field "value" right next to it enter:
    `/home/(YOUR-USER-PROFILE-NAME)/mesa/share/vulkan/icd.d/radeon_icd.x86_64.json`
+   
    Don't forget to replace (YOUR-USER-PROFILE-NAME) with your actual user name.
-9. Press the save button in the top right corner of the current config window.
+10. Press the save button in the top right corner of the current config window.
 
 3.) Result:
 That's it! We now instructed the application to specifically use our separate mesa 
