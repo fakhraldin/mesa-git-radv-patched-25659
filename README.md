@@ -5,6 +5,8 @@ plus other patches with focus on mesh shaders!
  1. [MR 25530](https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/25530) "ac/nir: fix partial mesh shader output writes on GFX11"
     
  3. [MR 25659](https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/25659) "radv: mesh shader fixes with array derefs of vectors"
+
+    UPDATE!: MR 25659 has been merged into mesa-git today! So no need anymore to include it in your build!
     
  5. [MR 25890](https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/25890) "radv: add mesh shader support with DGC"
     
